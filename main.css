@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    margin-top: 0px;
+    display: flex;
+    background-color : black;
+    width: 99%;
+    height: 0px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.large {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: blanchedalmond;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#logo{
+    text-align: center;
+}
+
+#font{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+#font2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+a { color:blanchedalmond }
+
+a:visited, a:active { text-decoration: none; color:blanchedalmond; }
+a:hover, a:active { text-decoration: none; color:blanchedalmond; }
+a:focus, a:active { text-decoration: none; color:blanchedalmond; }
+a:hover, a:active { text-decoration: none; color:darkgoldenrod; }
+
+* {
+    box-sizing: border-box;
+}
+
+.toolbar{
+    display: flex;
+    min-height: 1vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+}
+
+.box1 { background: black;}
+.box2 { background: black;}
+.box3 { background: black;}
+
+#welcomegif{
+    text-align: center;
+}
+
+#socialmedialinks{
+    text-align: center;
+}
+
+.button {
+    border: none;
+    border-radius: 180px;
+    color: blanchedalmond;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .titlebutton {
+    border: none;
+    border-radius: 90px;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .gifbutton {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: rgb(32, 32, 32); 
+    color: blanchedalmond; 
+  }
+  
+  .button1:hover {
+    background-color: darkgoldenrod;
+    color: blanchedalmond;
+  }
+
+  .button2 {
+    background-color: black; 
+    color: blanchedalmond;
+  }
+  
+  .button2:hover {
+    background-color: rgb(32, 32, 32);
+    color: blanchedalmond;
+  }
+
+  #video{
+      text-align: center;
+  }
+
+  #blurb{
+      text-align: center;
+  }
+
+  .aboutusblurbharry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%
+  }
+  
+  
+  .headshotharry {
+    padding-left: 20px;
+    max-width: 30%;
+    height: auto;
+  }
+  
+  .headshottextharry {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: blanchedalmond;
+    max-width: 70%;
+  }
+
+  .aboutusblurbwoodall {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    max-width: 100%;
+  }
+  
+  .headshotwoodall {
+    padding-left: 20px;
+    max-width: 30%;
+    height: auto;
+  }
+  
+  .headshottextwoodall {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: blanchedalmond;
+    max-width: 70%;
+  }
+
+  .addressblurb{
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    width: 100%
+  }
+
+  .map{
+    border: double darkgoldenrod 5px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 70px;
+    padding:15px;
+    align-items: right;
+    width: 50%;
+  }
+
+  .addresstext{
+      border: double darkgoldenrod 5px;
+      background-color: rgb(32, 32, 32);
+      border-radius: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 50%;
+  }
+
+  .aboutusbody{
+      display: block;
+  }
+
+  .contactbody{
+      display: block;
+  }
+  img {
+    max-width:100%;
+    height:auto;
+  }
+  video{
+      max-width: 100%;
+      height: auto
+  }
