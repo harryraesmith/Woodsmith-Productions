@@ -132,6 +132,8 @@ a:hover, a:active { text-decoration: none; color:darkgoldenrod; }
       text-align: center;
       padding-left: 250px;
       padding-right: 250px;
+      padding-top: 0px;
+      padding-bottom: 0px;
   }
 
   #blurb{
