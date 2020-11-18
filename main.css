@@ -130,6 +130,7 @@ a:hover, a:active { text-decoration: none; color:darkgoldenrod; }
 
   #video{
       text-align: center;
+      padding: 300px
   }
 
   #blurb{
